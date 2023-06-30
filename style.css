@@ -64,7 +64,7 @@
     padding-top: 50px;
 }
 
-#top-title, #contato{
+.top-title, #contato{
     color: black;
     font-size: 36px;
     font-family: 'Belanosima', sans-serif;
@@ -77,9 +77,10 @@
     text-shadow: 1.5px 1.5px 1px #557D89;
 }
 
-#top-title :hover{
+.top-title :hover{
     text-shadow: 10px 10px 1px #557D89;
     transition: text-shadow 1.5s;
+    text-decoration: none;
 }
 
 #top-subtitle{
@@ -166,6 +167,7 @@
     justify-content: center;
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
 }
 
 .botao:hover{
@@ -216,18 +218,64 @@ footer{
     text-decoration: none;
 }
 
-.btn-footer{
-    margin: -4px;
-    padding:0px 20px ;
-    border: none;
-    background-color: #ba67c8;
-    color: #fff;
-    height: 27px;
+.wpp-content{
+    margin-top: 20px;
 }
 
-/* CSS PÁGINA QUEM SOMOS...*/ 
+.wpp-img{
+    width: 50px;
+    height: 50px;
+}
+
+.wpp-text{
+    font-size: 22px;
+    color: white;
+    text-decoration: none;
+    padding-left: 5px;
+}
+
+.wpp-text:hover{
+    color: green;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px black;
+}
+
+/* CSS PÁGINA FEEDBACK...*/ 
 
 
 .legend-forms{
     font-size: 17px;
+}
+
+/* CSS PÁGINA QUEM SOMOS...*/
+
+#quem-somos{
+    padding-bottom: 50px;
+}
+
+#img-dr-nagila{
+    width: 500px;
+    height: 600px;
+    -webkit-box-shadow: 0px 0px 16px 1px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0px 0px 16px 1px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 0px 16px 1px rgba(0, 0, 0, 0, 04);
+    margin-bottom: 50px;
+    margin-top: 50px;
+    border-radius: 4px;
+}
+
+.text-phrase{
+    font-size: 25px;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: left;
+    font-style: italic;
+}
+
+.text-phrase::first-letter{
+    font-size: 45px;
+}
+
+.quem-somos-top{
+    margin-top: 20px;
 }
